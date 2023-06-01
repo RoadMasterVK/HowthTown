@@ -145,7 +145,7 @@ textarea {
 @media screen and (min-width: 30em) {
     label, input, textarea { display: block;
         width: 100%; box-sizing: border-box;
-        color:#226800;
+        color:rgb(66, 39, 90);
     }
     form {
         width: 30em; 
