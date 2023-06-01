@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howth Town</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+    <div class="page-container">
+        <header>
+            <div class="row2">
+                <div class="column-top1">
+                    <img src="images\logo.png" alt="Howth Town Logo">
+                </div>
+                <div class="column-top2">
+                    <nav>
+                        <ul>
+                            <li class="selected">Home</li>
+                            <li><a href="attractions.html">Attractions</a></li>
+                            <li><a href="accommodations.html">Accommodations</a></li>
+                            <li><a href="dining.html">Dining</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="transportation.html">Transportation</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+        <main>
+            <div class="slideshow-container">
+                <img class="mySlides" src="images/slide1.jpg" alt="Image 1">
+                <img class="mySlides" src="images/slide3.jpg" alt="Image 2">
+                <img class="mySlides" src="images/slide4.jpg" alt="Image 3">
+              </div>
+            
+              <script>
+                var slideIndex = 0;
+                showSlides();
+            
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+            
+                  // Hide all slides
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+            
+                  // Show the current slide
+                  slideIndex++;
+                  if (slideIndex > slides.length) {
+                    slideIndex = 1;
+                  }
+                  slides[slideIndex - 1].style.display = "block";
+            
+                  // Change slide every 3 seconds (3000 milliseconds)
+                  setTimeout(showSlides, 3000);
+                }
+              </script>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2023 Howth Town. All rights reserved - Address: 123 Main Street, Howth, Ireland - Email:
+                    info@howthtown.com | Phone: +1 234 5678</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
