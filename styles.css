@@ -35,6 +35,10 @@ body {
     padding: 0px;  
     align-items: right;  
 }
+h2{
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
 h1, h2, h3 {
     margin-top: 0;
 }
