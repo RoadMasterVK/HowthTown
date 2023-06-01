@@ -125,9 +125,9 @@ section h1 {
 
   display: flex;
   max-width: 90%;
-  max-height: 450px;
+  max-height: 500px;
   position: relative;
-  margin: 5px;
+  margin: auto;
   overflow: hidden;
 }
 
