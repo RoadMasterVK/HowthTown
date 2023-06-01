@@ -82,7 +82,7 @@ header {
 }
 /* Main Content */
 main {
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Sections */
@@ -102,14 +102,14 @@ section h1 {
 
 .column {
     flex-basis: 46%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .column1 {
     flex-basis: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
