@@ -166,7 +166,7 @@ textarea {
 
   display: flex;
   max-width: 90%;
-  max-height: 90%;
+  
   position: relative;
   margin: auto;
   overflow: hidden;
