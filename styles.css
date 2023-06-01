@@ -38,12 +38,16 @@ body {
 h2{
     font-family: Arial, sans-serif;
     font-size: 1em;
-    color:blueviolet;
+    color:rgb(66, 39, 90);
 }
 h1, h2, h3 {
     margin-top: 0;
 }
-
+p{
+    font-family: Arial, sans-serif;
+    font-size: 0,6em;
+    color:rgb(66, 39, 90);  
+}
 /* Navigation */
 nav {
     background-color: #fff;
